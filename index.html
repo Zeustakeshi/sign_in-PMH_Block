@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="css.css">
+ 
+    <title>Login</title>
+</head>
+<body>
+    <div class="backgroud">
+        <div id="title">Đăng Nhập</div>
+        <div id="user_pass">
+            <div id="name">
+                <img src="user.png" id="anh1">
+                <input type="text" id="username" autocomplete="on" placeholder="Tên đăng nhập" onchange="check_username()">               
+            </div>
+            <p class="eron" id="eron1"></p>
+            <div id="pass">
+                <img src="lock.png" id="anh1">
+                <input type="password" id="password" placeholder="Mật khẩu" onchange="check_pass ()">
+                
+            </div>
+            <p class="eron" id="eron2"></p>
+            <div id="sign_up"></div>
+            <!-- <div id="pass2">
+                <img src="lock.png" id="anh1">
+                <input type="password" id="password2" placeholder="Nhập lại mật khẩu" >
+                
+            </div> -->
+            
+        </div>
+        
+        <div class="button_login" >
+            <div id="dn" style="display: inline-block;">
+                <button class="button-30" onclick=" checklogin(),load1()">Đăng nhập</button>
+            </div>
+            <button class="button-30" id="dk1" onclick="sign_up ()">Đăng kí 1</button>
+        </div>
+        <div class ="quen_pass">
+            <a  id="a1" onclick="">Quên Mật Khẩu</a>
+        </div>
+    </div>
+
+
+
+    <script src="js.js"></script>
+</body>
+</html>
