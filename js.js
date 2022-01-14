@@ -146,7 +146,7 @@ function saveIfo(){
 }
 function load1(){
     if (checklogin() == true){
-        window.location.replace("https://zeustakeshi.github.io/count-time/")
+        window.location.replace("https://zeustakeshi.github.io/P_M_H/")
     }
     
 }
